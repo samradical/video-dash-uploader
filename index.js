@@ -27,7 +27,7 @@ module.exports = (IDS, BUCKET, options = {}) => {
         .then(sidxs => {
           return Q.map(sidxs, d => {
             const { name } = path.parse(d.path)
-            fs.writeFileSync(`${name}.json`, d)
+            fs.writeFileSync(`${name}.json`, JSON.stringify(d))
             return uploadFile(d.path, BUCKET)
               .then(() => uploadFile(`${name}.json`, BUCKET))
           },{concurrency:1})
