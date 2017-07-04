@@ -3,7 +3,7 @@
   "description": "",
   "homepage": "https://github.com/samradical/video-dash-uploader",
   "author": "Sam Elie <sam@add.dog>",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/samradical/video-dash-uploader.git",
@@ -12,9 +12,9 @@
   "main": "index.js",
   "scripts": {},
   "dependencies": {
-    "dash-mp4box-sidx": "0.0.2",
-    "google-cloudstorage-commands": "0.0.1",
-    "youtube-manifest-downloader": "^1.0.0"
+    "dash-mp4box-sidx": "*",
+    "google-cloudstorage-commands": "*",
+    "youtube-manifest-downloader": "*"
   },
   "engines": {
     "node": ">=6.7.0"
