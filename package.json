@@ -1,0 +1,32 @@
+{
+  "name": "video-dash-uploader",
+  "description": "",
+  "homepage": "https://github.com/samradical/video-dash-uploader",
+  "author": "Sam Elie <sam@add.dog>",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samradical/video-dash-uploader.git",
+    "web": "https://github.com/samradical/video-dash-uploader/"
+  },
+  "main": "index.js",
+  "scripts": {},
+  "dependencies": {
+    "dash-mp4box-sidx": "0.0.2",
+    "google-cloudstorage-commands": "0.0.1",
+    "youtube-manifest-downloader": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=6.7.0"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/samradical/video-dash-uploader/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  ]
+}
